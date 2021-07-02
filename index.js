@@ -14,7 +14,7 @@ router.get('/home', (ctx) => {
 })
 router.get('/index', (ctx) => {
   ctx.body = {
-    name: 'index'
+    index: 'index'
   }
 })
 
