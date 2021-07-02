@@ -8,7 +8,7 @@ COPY . /app
 
 WORKDIR /app
 
-RUN cnpm install
+RUN npm install
 
 CMD cnpm start
 
