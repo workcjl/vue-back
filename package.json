@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start './index.js' --name back --watch",
-    "stop": "pm2 stop back"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
