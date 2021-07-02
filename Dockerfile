@@ -10,6 +10,7 @@ WORKDIR /app
 
 RUN npm install
 
+EXPOSE 3000
+
 CMD cnpm start
 
-EXPOSE 3000
