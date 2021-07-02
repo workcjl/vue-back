@@ -8,8 +8,8 @@ COPY . /app
 
 WORKDIR /app
 
-RUN npm install
+RUN cnpm install
 
-CMD npm start
+CMD cnpm start
 
 EXPOSE 3000
