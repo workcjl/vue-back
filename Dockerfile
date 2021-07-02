@@ -12,5 +12,5 @@ RUN npm install
 
 EXPOSE 3000
 
-CMD cnpm start
+CMD npm start
 
