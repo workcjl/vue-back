@@ -12,6 +12,11 @@ router.get('/home', (ctx) => {
     name: 'hello'
   }
 })
+router.get('/index', (ctx) => {
+  ctx.body = {
+    name: 'index'
+  }
+})
 
 app.use(cors())
 app.use(router.routes())
